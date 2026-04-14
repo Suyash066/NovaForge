@@ -1,0 +1,81 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  padding: 0 24px;
+
+  display: flex;
+  justify-content: space-evenly;
+  gap: 70rem;
+  align-items: center;
+
+  background: #0b0f14;
+  border-bottom: 1px solid #1f2933;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* LEFT */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  margin-left: -4rem;
+}
+
+.logo-icon {
+  font-size: 18px;
+}
+
+.logo-text {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* RIGHT */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* CREATE BUTTON */
+.create-btn {
+  background: #4f8cff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.create-btn:hover {
+  background: #3b6fd8;
+}
+
+/* PROFILE */
+.profile {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+
+  background: #11161c;
+  border: 1px solid #1f2933;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.profile:hover {
+  border-color: #4f8cff;
+}

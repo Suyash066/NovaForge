@@ -1,0 +1,160 @@
+.profile-main-page {
+  display: flex;
+  gap: 32px;
+  padding: 40px;
+  background: #0d1117;
+  color: #c9d1d9;
+  min-height: 100vh;
+}
+
+/* LEFT */
+.profile-left {
+  width: 260px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #238636;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.username {
+  margin: 12px 0 4px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.email {
+  color: #8b949e;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.follow-btn {
+  width: 100%;
+  padding: 8px;
+  background: #21262d;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.follow-btn:hover {
+  background: #30363d;
+}
+
+.follow-info {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+}
+
+/* MAIN */
+.profile-main {
+  flex: 1;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 25px;
+  border-bottom: 1px solid #30363d;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.tabs span {
+  cursor: pointer;
+  padding-bottom: 6px;
+  color: #8b949e;
+}
+
+.tabs span:hover {
+  color: #c9d1d9;
+}
+
+.tabs .active {
+  border-bottom: 2px solid #f78166;
+  color: #ffffff;
+}
+
+/* SECTION */
+.section {
+  margin-bottom: 30px;
+}
+
+/* REPO GRID */
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.repo-card {
+  border: 1px solid #30363d;
+  padding: 16px;
+  border-radius: 8px;
+  background: #161b22;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.repo-card:hover {
+  border-color: #58a6ff;
+  transform: translateY(-2px);
+}
+
+/* HEADER */
+.repo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repo-header h4 {
+  color: #58a6ff;
+  font-size: 16px;
+}
+
+/* BADGE */
+.badge {
+  font-size: 12px;
+  border: 1px solid #30363d;
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+.repo-footer {
+  margin-top: 10px;
+  font-size: 13px;
+  display: flex;
+  gap: 15px;
+  color: #8b949e;
+}
+
+/* EMPTY */
+.empty {
+  color: #8b949e;
+}
+
+/* CONTRIBUTION SECTION */
+.contribution-section {
+  margin-top: 30px;
+}
+
+.contribution-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
