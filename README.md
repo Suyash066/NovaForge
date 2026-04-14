@@ -479,7 +479,8 @@ AWS_SECRET_ACCESS_KEY=your_aws_secret_key
 
 ---
 
-## 👨‍💻 Author
+## 👤 Author
 
-**Suyesh Singh**  
-IIT Bhilai
+Built by **Suyesh Singh** — [GitHub](https://github.com/Suyash066) · [LinkedIn](https://www.linkedin.com/in/suyesh-singh-848b2834a/)
+
+---
