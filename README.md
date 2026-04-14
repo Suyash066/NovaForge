@@ -57,20 +57,17 @@ The project is built on the MERN stack (MongoDB, Express, React, Node.js), with 
 ---
 
 ### 📊 Dashboard
-
 ![Dashboard](./screenshots/dashboard.png)
 
 ---
 
 ### 👤 Profile
-
 ![Profile](./screenshots/profile.png)
 
 ---
 
 ### 📈 Contributions Heatmap
-
-![Heatmap](./screenshots/heatmap.png)
+![HeatMap](./screenshots/heatmap.png)
 
 ---
 
