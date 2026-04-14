@@ -49,25 +49,25 @@ The project is built on the MERN stack (MongoDB, Express, React, Node.js), with 
 ### 🔐 Authentication
 
 #### Signup
-![Signup](./screenshots/signup.png)
+![Signup](./screenshots/Signup.png)
 
 #### Login
-![Login](./screenshots/login.png)
+![Login](./screenshots/Login.png)
 
 ---
 
 ### 📊 Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/Dashboard.png)
 
 ---
 
 ### 👤 Profile
-![Profile](./screenshots/profile.png)
+![Profile](./screenshots/Profile.png)
 
 ---
 
 ### 📈 Contributions Heatmap
-![HeatMap](./screenshots/heatmap.png)
+![HeatMap](./screenshots/HeatMap.png)
 
 ---
 
