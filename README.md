@@ -42,6 +42,38 @@ The project is built on the MERN stack (MongoDB, Express, React, Node.js), with 
 
 ---
 
+---
+
+## 📸 Screenshots
+
+### 🔐 Authentication
+
+#### Signup
+![Signup](./screenshots/signup.png)
+
+#### Login
+![Login](./screenshots/login.png)
+
+---
+
+### 📊 Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+### 👤 Profile
+
+![Profile](./screenshots/profile.png)
+
+---
+
+### 📈 Contributions Heatmap
+
+![Heatmap](./screenshots/heatmap.png)
+
+---
+
 ## 📁 The `.nova` Folder
 
 At the heart of NovaForge's VCS is the `.nova` directory — analogous to `.git` in traditional version control. When you initialize a repository with `nova init`, this folder is created in your project's working directory and serves as the local VCS store.
@@ -103,16 +135,22 @@ NovaForge
 │   └── .nova/                ← Local VCS store (created on init)
 │
 └── frontend/                 ← React (Vite) web application
-    └── src/
-        ├── authContext.jsx   ← Global auth state provider
-        ├── Routes.jsx        ← Protected & public route definitions
-        └── components/
-            ├── auth/         ← Login, Signup
-            ├── dashboard/    ← Main dashboard
-            ├── user/         ← Profile, HeatMap
-            ├── issue/        ← Issue management
-            ├── repo/         ← Repository views
-            └── Navbar.jsx
+│   └── src/
+│       ├── authContext.jsx   ← Global auth state provider
+│       ├── Routes.jsx        ← Protected & public route definitions
+│       └── components/
+│           ├── auth/         ← Login, Signup
+│           ├── dashboard/    ← Main dashboard
+│           ├── user/         ← Profile, HeatMap
+│           ├── issue/        ← Issue management
+│           ├── repo/         ← Repository views
+│           └── Navbar.jsx
+└── screenshots/
+    ├── Signup.png
+    ├── Login.png
+    ├── Dashboard.png
+    ├── Profile.png
+    ├── HeatMap.png
 ```
 
 ---
